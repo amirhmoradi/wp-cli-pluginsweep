@@ -1,5 +1,5 @@
 {
-    "name": "yourname/wp-cli-pluginsweep",
+    "name": "amirhmoradi/wp-cli-pluginsweep",
     "description": "WP-CLI extension for managing and cleaning plugins across WordPress installations.",
     "type": "wp-cli-package",
     "license": "MIT",
@@ -9,6 +9,7 @@
         }
     },
     "require": {
-        "wp-cli/wp-cli": "^2.5"
+        "wp-cli/wp-cli": "^2.11",
+        "snicco/better-wp-cli": "^1.10"
     }
 }
